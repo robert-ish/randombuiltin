@@ -87,6 +87,10 @@ def countof(typ) -> int:
     """Returns how many builtins there are of a specific type."""
     return len(allof(typ))
 
+def countofc(typ) -> int:
+    """Returns how many builtins there are of a specific type."""
+    return len(allofc(typ))
+
 def randcall(*args, attempts=999, **kwargs):
     """Calls a random builtin with the provided args until it works, tries for a certain amount of attempts, raises RuntimeError if couldnt call any builtin."""
     for _ in range(attempts):
