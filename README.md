@@ -26,7 +26,7 @@ Returns a random pair of Builtin Name, Builtin OF A SPECIFIC TYPE.
 Returns all found builtins of a specific type
 ### allofc(typ)
 Returns all found builtins of a specific type (subtypes counted)
-### countof
+### countof(typ)
 Returns how many builtins there are of a specific type.
 ### randcall(*args, attemps=999, **kwargs)
 Calls a random builtin with the provided args until it works, tries for a certain amount of attempts, raises RuntimeError if couldnt call any builtin.
